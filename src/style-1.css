@@ -1,0 +1,70 @@
+body{
+    background-color: #0f172a;
+    color: white;
+}
+
+/* violate -  #27185d */
+/* yellow - #b77e45 */
+
+.title{
+    color: #b77e45;
+}
+
+.card{
+    background-color: #1e293b;
+    margin: 50px auto;
+    width: 500px;
+    border: 1px solid #334155;
+    border-radius: 20px;
+}
+
+.upper-section{
+    background-color: #27185d;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.skills-section > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-section > ul > li {
+    list-style: none;
+    background-color: #342272;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.projects-section{
+    border-top: 1px solid #334155;
+    padding: 20px 30px;
+}
+
+.project > h3{
+    padding-left:8px;
+}
+
+.project > p , .project > span{
+    padding-left: 15px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.nav{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.nav a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #32265d;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
